@@ -1,58 +1,87 @@
 :root{
-    --mail-colour:rgb(238, 163, 230)
+    --color-primary: rgb(186, 123, 161);
+    --color-secondary: #89004f
+    ;
+
 }
 
 body {
-    font-family: sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: var(--color-primary);
+    
+}
+
+.navbar img {
+    padding: 1rem;
 }
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
-    font-size: 1.5rem;
-    background-color: var(--mail-colour);
-    margin: 0;
-    padding: 10px;
 }
 
-.menu .nav {
+.menu li a {
+    padding: 0.3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 4rem;
+    margin: 6rem 0;
     display: flex;
-   
-    background-color: var(--mail-colour);
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 10px;
-}
-
-.main-title {
-    text-align: center;
-    font-size: 45px;
-}
-
-.profile {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    background-color: white;
 }
 
 
-.profile img {
-    margin: 20px;
-    padding: 10px;
-    max-width: 16rem;
+footer {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    color: white;
 }
 
-.description {
-    display: inline;
-    text-align: left;
-    font-size: 2rem;
-    background-color: #fff;
-    margin: 15px;
-    padding: 10px;
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links li {
+    padding: 2rem;
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
 }
 
 

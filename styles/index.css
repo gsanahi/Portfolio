@@ -1,0 +1,35 @@
+.background {
+    background-image: url('../resources/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: white;
+}
+
+.personal-info img {
+    max-width:10rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.description {
+    text-align:center;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.container img{
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./resources/logo_lenguajes.jpg);
+    display: table;
+    height: 100%;
+    width: 100%;
+}
