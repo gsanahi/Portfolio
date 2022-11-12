@@ -1,0 +1,15 @@
+.skills {
+    background-color: rgb(169, 135, 229);
+    border-color: rgb(8, 2, 15);
+    borde
+}
+
+
+.py {
+    background-color: red;
+}
+
+@keyframes progress {
+    from {left: 0%};
+    to {right: 99%;}
+}
