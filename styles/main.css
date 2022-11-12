@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 h1 {
@@ -49,15 +49,24 @@ h3 {
     padding: 0.3rem;
     color: white;
     text-decoration: none;
+    
 }
 
 .container {
-    padding: 4rem;
-    margin: 6rem 0;
+    padding: 0 4rem;
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
+    
+}
+
+.background {
+    background-image: url('../resources/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -66,7 +75,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     color: white;
 }
 
@@ -84,5 +93,23 @@ footer {
     text-decoration: none;
 }
 
-
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    opacity: 1;
+    background-color: #fff;
+}
   
+@media only screen and (min-width: 768px) {
+    .navbar .menu :hover{
+        color: var(--color-secondary);}
+    .card {display: flex;
+        flex-direction: column;
+
+    }
+}

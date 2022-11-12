@@ -1,29 +1,14 @@
-.background {
-    background-image: url('../resources/background.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.personal-info {
-    display: flex;
-    align-items: center;
-    margin: 2rem 0;
-    border-radius: 20px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    background-color: white;
-}
-
 .personal-info img {
     max-width:10rem;
-    border-radius: 20px 0 0 20px;
+    margin: 1rem;
+    border-radius: 5rem;
 }
 
 .description {
     text-align:center;
-    background-color: #fff;
     padding: 1rem;
-}
+    
+    }
 
 .container img{
     background-position: 100%;
@@ -33,3 +18,4 @@
     height: 100%;
     width: 100%;
 }
+
