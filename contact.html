@@ -26,30 +26,57 @@
   </nav>
 
   <div class="container background">
-    <form>
-      <div class="form-group"><label>Name</label>
-        <div>
-          <input type="text" name="name" required>
+    <div class="card form-container">
+      <h1>Contact Me</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" required>
         </div>
-      </div>
-
-      <div class="form-group"><label>Surname</label>
-        <div>
-          <input type="text" name="surname" required>
+        <div class="form-group">
+          <label for="surname">Surname</label>
+          <input id="surname" type="text" name="surname" required>
         </div>
-      </div>
-
-      <div class="form-group"><label>Phone number</label>
-        <div>
-          <input type="number" name="phone" required>
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <input id="phone" type="tel" name="phone" required>
         </div>
-      </div>
 
-      <div class="form-group">
-        <button> Send me</button>
-      </div>
+        <div class="form-group">
+          <h3>How do you know me?</h3>
+          <div class="center">
+            <div class="know-group">
+              <label for="university">Univerity</label>
+              <input id="university" type="radio" name="place" required>
+            </div>
+            <div class="know-group">
+              <label for="keepcoding">Keepcoding Kickoff</label>
+              <input id="keepcoding" type="radio" name="place" required>
+            </div>
+            <div class="know-group">
+              <label for="school">School</label>
+              <input id="school" type="radio" name="place" required>
+            </div>
+            <div class="know-group">
+              <label for="github-radio">Github</label>
+              <input id="github-radio" type="radio" name="place" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="github">Github:</label>
+          <input id="github" type="text" name="github" pattern="@[A-Za-z0-9-_]+" placeholder="@username">
+        </div>
+        <div class="form-group">
+          <label for="description">Write a message for me:</label>
+          <input id="description" type="text" name="description" maxlength="180">
+        </div>
+        <div class="send">
+          <button> Send me</button>
+        </div>
+      </form>
+    </div>
   </div>
-  </form>
 
 
 

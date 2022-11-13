@@ -1,10 +1,31 @@
-.form-group {
-  margin: 1rem;
-  border-radius: 20px;
-  text-align: center;
+h3 {
+  margin: 1rem 0;
 }
 
-form{
+.form-container{
+  background-color: rgb(249, 245, 248);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.form-group {
+  margin: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.know-group {
+  margin: 0.5rem 0;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send button {
+  padding: 1rem;
+  font-size: 1rem;
 }
