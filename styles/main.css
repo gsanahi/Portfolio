@@ -93,6 +93,14 @@ footer {
     text-decoration: none;
 }
 
+.fa-brands {
+    margin: 1rem;
+    font-size: 2rem;
+   
+}
+
+
+
 .card {
     display: flex;
     flex-direction: column;
@@ -108,8 +116,9 @@ footer {
 @media only screen and (min-width: 768px) {
     .navbar .menu :hover{
         color: var(--color-secondary);}
-    .card {display: flex;
-        flex-direction: column;
+    .card {
+        display: flex;
+        flex-direction: row;
 
     }
 }
