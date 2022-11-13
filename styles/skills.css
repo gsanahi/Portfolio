@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+    .skills {
+       margin: 10rem;
+        
+    }
+    
+
+}
 
 .skills h2 {
     font-weight: 400;
@@ -9,20 +17,21 @@
     margin-top: 40px;
     margingbottom: 5px;
     color: rgb(10, 10, 10);
-    font-size: 16px;
+    font-size: 1.5rem;
 
 }
 
 .progress-bar {
     background: rgb(rgb(11, 11, 11));
     width: 200px;
-    height: 10px;
+    height: 15px;
     border-radius: 5px;
+    margin: 0.5rem
     
 }
 
 .progress-bar div{
-    height: 10px;
+    height: 15px;
     border-radius: 5px;
     width: 0%;
     background: red;

@@ -23,5 +23,11 @@
     .personal-info {
         display: flex;
         flex-direction: row;
+        margin-bottom: 15rem;
+        
     }
+    h1{
+        margin: 4rem 0;
+    }
+
 }
